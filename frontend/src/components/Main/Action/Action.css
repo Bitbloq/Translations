@@ -1,6 +1,6 @@
 .action {
-  display: inline-block;
-  width: 45%;
+  flex: 1 3 45%;
+  min-width: 432px;
   height: 100px;
   background-color: #2988f3;
   text-align: center;

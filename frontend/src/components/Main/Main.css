@@ -32,4 +32,8 @@
   width: 80%;
   margin: auto;
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }
