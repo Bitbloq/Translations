@@ -283,15 +283,6 @@ const Translations: React.FC<TranslationsProps> = (
             translation: translationText,
           },
         },
-      }).then(() => {
-        refetch().then(result => {
-          const { literals, translations } = result.data;
-          const lt: LiteralTranslation[] = createLiteralTranslations(
-            literals,
-            translations,
-          );
-          setTranslationsState(lt);
-        });
       });
     }
   };
